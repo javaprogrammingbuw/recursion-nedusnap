@@ -21,6 +21,8 @@ public class RecLoop{
 			return euclidRec(a - b, b);
 		}
 	}
+	 
+	 //my EuclidIterative method
 
 	 public static int euclidIterative(int a, int b) {
 		 
@@ -37,25 +39,6 @@ public class RecLoop{
 			 }
 		 }
 		 return a;
-		 
-		 /*
-		 if (a==b)  {
-			 return a;
-		 }
-		 
-		 else if (b > a) {
-				 b = a;
-		 }
-		 else  { 
-			 while (b!=0) {
-				 
-				 b = b - a;
-				 
-			 }
-		 }
-			 return b; */
-				
-			
 		 }
 		 
 	 
@@ -73,6 +56,8 @@ public class RecLoop{
 			return result;
 		}
 	}
+    
+    //Testing the EuclidIterative method
     
 	public static void main(String[] args) {
 		System.out.println(euclidIterative(462, 1071));

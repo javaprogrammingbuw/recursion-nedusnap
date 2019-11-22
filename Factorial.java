@@ -15,6 +15,7 @@ public class Factorial {
 		}
 	}
 	
+	//testinng factorial method
 	public static void main(String[] args) {
 		System.out.print(factorial(5));
 	}

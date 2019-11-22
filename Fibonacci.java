@@ -29,6 +29,7 @@ public static int fib(int n) {
 	}
 }
 
+//my fibRek method
 
 	public static int fibRek(int n) {
 		if(n==0) {
@@ -44,7 +45,7 @@ public static int fib(int n) {
 	
 	
 /*
- * fib() and fibRek() test	
+ * fib() and fibRek() method test	
  */
 	
 	public static void main(String[] args) {

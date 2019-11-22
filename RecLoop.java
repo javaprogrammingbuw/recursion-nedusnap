@@ -22,6 +22,44 @@ public class RecLoop{
 		}
 	}
 
+	 public static int euclidIterative(int a, int b) {
+		 
+		 if(a==0) {
+			 return b;
+		 }
+		 
+		 while (b!=0) {
+			 if (a>b) {
+				 a = a-b;
+			 }
+			 else {
+				 b = b-a;
+			 }
+		 }
+		 return a;
+		 
+		 /*
+		 if (a==b)  {
+			 return a;
+		 }
+		 
+		 else if (b > a) {
+				 b = a;
+		 }
+		 else  { 
+			 while (b!=0) {
+				 
+				 b = b - a;
+				 
+			 }
+		 }
+			 return b; */
+				
+			
+		 }
+		 
+	 
+	 
     public static double powIterative(final double base, final int n) {
 		if (n < 0) {
 			System.out.println("(Our version of) power is undefined for negative numbers.");
@@ -34,5 +72,10 @@ public class RecLoop{
 			}
 			return result;
 		}
+	}
+    
+	public static void main(String[] args) {
+		System.out.println(euclidIterative(462, 1071));
+		System.out.println(euclidRec(462, 1071));
 	}
 }
